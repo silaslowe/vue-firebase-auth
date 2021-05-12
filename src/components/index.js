@@ -4,12 +4,7 @@ import { ref } from "vue";
 import router from "@/router";
 
 const firebaseConfig =   {
-  apiKey: "AIzaSyBv-cjw1163Rlm3EeGIXeqp4wDsvwz-Wy0",
-  authDomain: "vue-firebase-auth-2.firebaseapp.com",
-  projectId: "vue-firebase-auth-2",
-  storageBucket: "vue-firebase-auth-2.appspot.com",
-  messagingSenderId: "119246861388",
-  appId: "1:119246861388:web:08af6ddd85f2f0de11f0e9"
+
 };
 
 export const user = ref(null);
